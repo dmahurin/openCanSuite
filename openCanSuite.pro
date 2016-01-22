@@ -1,7 +1,4 @@
 TEMPLATE = subdirs
-SUBDIRS = qcan canHmi canPlotter canAnalyzer widgets
-canPlotter.depends = qcan widgets
-canAnalyzer.depends = qcan widgets
+SUBDIRS = qcan canHmi
 canHmi.depends = qcan
-widgets.depends = qcan
 
